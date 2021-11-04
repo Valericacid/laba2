@@ -3,7 +3,7 @@ from math import factorial
 
 n = int(input())
 
-def chudnovsky(n):
+def pi(n):
    decimal.getcontext().prec = n + 1
    pi = decimal.Decimal(0)
    k = 0
@@ -16,5 +16,5 @@ def chudnovsky(n):
    return pi
 
 
-print(chudnovsky(n))
+print(pi(n))
 
